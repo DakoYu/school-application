@@ -1,0 +1,143 @@
+.container {
+    margin: auto;
+    border: 2px solid black;
+    width: 512px;
+}
+
+/* Header styling */
+
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.container .navbar .menu {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.container .navbar .bell {
+    font-size: 2rem;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+/* School Card styling */
+
+.container .application {
+    padding: 20px;
+}
+
+.container .application .school {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-items: center;
+    padding: 5px;
+    height: 8vh;
+    margin-bottom: 5%;
+}
+
+/* School Image */
+.container .application .school .school-image {
+    margin-right: 4%;
+}
+
+.container .application .school .school-image img {
+    width: 80px;
+    object-fit: cover;
+}
+
+/* School Info */
+.container .application .school .school-info {
+    margin-right: 20px;
+}
+
+.container .application .school .school-info h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.container .application .school .school-info h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container .application .school .school-info h5 {
+    margin: 0;
+    padding: 0;
+}
+
+/* School Refund */
+.container .application .school .school-refund {
+    color: grey;
+}
+
+/* School Button */
+.container .application .school .school-btn {
+    margin-left: 4%;
+    margin-bottom: 20%;
+}
+
+.container .application .school .school-btn button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container .application .school .school-btn button.red{
+    background-color: red;
+}
+
+.container .application .school .school-btn button.blue{
+    background-color: skyblue;
+}
+
+/* Footer */
+
+.container footer .pages {
+    display: flex;
+    border-top: 2px solid black;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.container footer .pages .pages-btn{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.container footer .pages .pages-btn.select{
+    background-color: rgb(180, 180, 180);
+}
+
+/* Two Buttons */
+.new-buttons {
+    display: none;
+}
+
+.new-buttons.active {
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    width: 512px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.new-buttons .button-return, .button-red {
+    padding: 20px 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
